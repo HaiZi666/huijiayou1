@@ -1,0 +1,545 @@
+@charset "utf-8";
+
+body,p,h1,h2,h3,h4,h5,h6,ul,dl,dd,td,input,fieldset,textarea,option{ margin:0; padding:0;}
+li{list-style:none;}
+a{text-decoration:none; color:#333;}
+img{border:none; vertical-align:top; }
+a,input{outline:none;}
+h1,h2,h3,h4,h5,h6,b,strong{font-weight:100;}
+i,em{font-style:normal;}
+body{font:12px "微软雅黑";}
+.clear{zoom:1;}
+.clear:after{content:"."; display:block; 
+clear:both; height:0; visibility:hidden;}
+.fl{float:left;}
+.fr{float:right;}
+
+/*--******商品分类选择行  3********--*/
+#conter{
+	overflow: hidden;
+    margin: 0 auto;
+    width: 1200px;
+    position: relative;
+    color: w;
+}
+
+#spingsort{ /*商品列表*/
+	margin: auto;
+    overflow: hidden;
+    width: 1200px;
+    height: 561px;
+    margin-bottom: 40px;
+}
+.sortnav{
+	width: 134px;
+    height: 558px;
+    border: 1px solid #e5e5e5;
+    position: absolute;
+    left: 0px;
+}
+
+.sortnav li{ 
+width: 132px;
+    margin-left: 1px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 14px;
+    color: #333;
+}
+
+
+.sortnav li a{
+	
+	padding-left: 20px;
+}
+.sortbanerout{  /*中间banner图*/
+	
+    width: 714px;
+    height: 558px;
+    overflow: hidden;
+    position: absolute;
+    left: 170px;
+}
+
+.sortbanerin{
+	 width: 712px;
+    height: 382px;
+    overflow: hidden;
+    
+	
+}
+
+.sortbanerout a{
+	display: block;
+	width: 355px;
+	height: 174px;
+	
+	float: left;
+	margin-right: 2px;
+	margin-top: 2px;
+}
+
+.sortdenglu{  /*欢迎登录框*/
+	width: 232px;
+    overflow: hidden;
+    padding-top: 10px;
+    float: right;
+    height: 558px;
+    position: absolute;
+    right: 40px;
+   
+}
+
+.sortdenglu .sortdenglutop{
+	border: 1px solid #e5e5e5;
+    margin-bottom: 14px;
+
+}
+
+.sortdenglu .sortdenglutop .denglushang{
+	margin: 0 0;
+    margin-bottom: 10px;
+    width: 232px;
+    height: 172px;
+    overflow: hidden;
+    padding-bottom: 0;
+    border-bottom: none;
+    border-top: none;
+}
+
+.denglunohead{
+	padding-top: 20px;
+    height: 78px;
+    text-align: center;
+}
+.denglunohead img{
+	border-radius: 20px;
+}
+
+.denglunohead i{
+	display: block;
+    line-height: 24px;
+    font-size: 12px;
+    color: #333;
+}
+
+.dengdenglu{
+	
+	display: block;
+    text-align: center;
+    width: 200px;
+    height: 40px;
+    line-height: 40px;
+    background: #dc0f50;
+    color: #fff;
+    font-size: 16px;
+    margin: 0 auto;
+}
+
+.dengluno p{
+	padding: 0 15px;
+    text-align: right;
+    
+}
+.dengluno p a{
+    color: #333;
+    font-size: 12px;
+    line-height: 31px;
+}
+
+/*登录下半页*/
+.dengluxia{
+	overflow: hidden;
+    height: 141px;
+    border-top: 1px solid #e5e5e5;
+}
+ 
+ .dianhua{  /*电话*/
+ 	 padding: 18px 0 18px 50px;
+    overflow: hidden;
+    height: 30px;
+    line-height: 30px;
+    font-size: 24px;
+    color: #666;
+    font-weight: bold;
+    background: url(../img/mobile1.png) no-repeat 10px center;
+ }  
+
+.dengluxia ul {
+	    padding: 0 10px;
+    overflow: hidden;
+}
+
+.dengluxia ul li{
+	
+	width: 25%;
+    float: left;
+    overflow: hidden;
+}
+
+.dengluxia ul li a{
+	display: block;
+    line-height: 15px;
+    color: #333;
+    text-align: center;
+    font-size: 12px;
+}
+.dengluxia ul li a span{
+	display: block;
+    width: 26px;
+    height: 20px;
+    background: url(../img/icon_2.png) no-repeat;
+    margin: 2px auto;
+    margin-bottom: 5px;
+}
+    
+ .dengluxia ul li a .span2{
+ 	    background-position: 0 -20px;
+ }   
+
+.dengluxia ul li a .span3{
+	    background-position: 0 -40px;
+}
+
+.dengluxia ul li a .span4{
+	background-position: 0 -60px;
+}
+
+/* 秒杀啊啊 */
+.sortdenglubottom{
+	overflow: hidden;
+}
+
+.sortdenglubottom h2{
+	height: 37px;
+    line-height: 16px;
+    overflow: hidden;
+    padding: 10px 0;
+    color: #dc0f50;
+    font-size: 16px;
+    border-top: 2px solid #dc0f50;
+    text-align: center;
+}
+
+.sortdenglubottom ul{
+	height: 152px;
+    overflow: hidden;
+    margin-right: -3px;
+}
+.sortdenglubottom ul li{
+	width: 113px;
+    overflow: hidden;
+    float: left;
+    margin-right: 3px;
+}
+
+.sortdenglubottom ul li a{
+	display: block;
+	color: #0077dd;
+    text-decoration: none;
+    outline: none;
+}
+.sortdenglubottom ul li a img{
+	width: 113px;
+    height: 113px;
+    display: block;
+    margin: 0 auto;
+}
+
+.sortdenglubottom ul li a span{
+	display: block;
+    margin-top: 10px;
+    background: #dc0f50;
+    height: 28px;
+    line-height: 28px;
+    text-align: center;
+    font-size: 12px;
+    font-size: 12px;
+    color: #fff;
+}
+
+
+
+
+
+
+/*--******1F 品质家居  5********--*/
+
+.floor{
+	overflow: hidden;
+}
+
+.fl{
+	width: 890px;
+    overflow: hidden;
+    float: left;
+    height: 556px;
+}
+.fl .hd{
+	    margin-bottom: 20px;
+}
+.fl .bd .left{
+	width: 300px;
+    float: left;
+}
+
+.fl .bd .right{
+	
+	width: 580px;
+    float: right;
+    overflow: hidden;
+}
+
+.left{
+	width: 300px;
+    float: left;
+}
+
+
+.left ul{
+	padding-top:21px ;
+	width: 300px;
+    height: 108px;
+    overflow: hidden;
+}
+
+.left ul li img{
+	width: 84px;
+	height:35px;
+}
+.left ul li {
+	float: left;
+	padding-left: 13px;
+	padding-bottom:12px;
+	
+}
+
+.right{
+	width: 580px;
+	height:504 ;
+	float: left;
+	overflow: hidden;
+}
+
+.right .rightbaner{
+	width:580px;
+	height:310px ;
+	background: blueviolet;
+}
+.rightxai{
+	float: left;
+	width: 185px;
+	height: 190px;
+	background: cornflowerblue;
+	margin-right:8px ;
+	
+}
+
+.frselling{
+	float: right;
+    width: 300px;
+    overflow: hidden;
+    height: 556px;
+}
+.frselling .hd{
+	    margin-bottom: 20px;
+}
+.frselling .bd  li{
+    height: 80px;
+    padding: 10px 0;
+    border-bottom: 1px solid #e5e5e5;
+    margin-top: -1px;
+    overflow: hidden;
+    position: relative;
+    padding-left: 97px;
+}
+
+.frselling .bd  li a{
+	
+    display: block;
+    height: 80px;
+}
+.frselling .bd li .bji1{
+	background: url(../img/qi.png) no-repeat;
+}
+
+.frselling .bd li i{
+	display: block;
+    width: 25px;
+    height: 25px;
+    line-height: 18px;
+    padding-left: 5px;
+    font-size: 12px;
+    color: #fff;
+    position: absolute;
+    left: 0;
+    top: 10px;
+    z-index: 10;
+}
+
+
+.frselling .bd li img{
+	
+	width: 80px;
+    height: 80px;
+    position: absolute;
+    left: 0;
+    top: 10px;
+}
+.frselling .bd  li span{
+	display: block;
+    height: 32px;
+    line-height: 16px;
+    overflow: hidden;
+    font-size: 14px;
+    color: #333;
+    margin-bottom: 22px;
+}
+    
+.frselling .bd  li b{
+	    font-size: 20px;
+    color: #dc0f50;
+    line-height: 26px;
+}
+
+
+.frselling .bd li .bji2{
+	background: url(../img/qi.png) no-repeat 0 -26px;;
+}
+
+.frselling .bd li .bji3{
+	background: url(../img/qi.png) no-repeat 0 -52px;;
+}
+
+/*--<!--******猜你喜欢         10********-->*--*/
+
+.ylikehead{
+	height: 32px;
+    background: url(../img/xiantiao.png) repeat-x left bottom;
+    overflow: hidden;
+    margin-bottom: 30px;
+}
+
+.ylikehead h2{
+	float: left;
+    padding-right: 8px;
+    font-size: 24px;
+    color: #333;
+    background: #fff;
+    line-height: 24px;
+    padding-top: 4px;
+    padding-bottom: 5px;
+}
+
+.ylikebd{
+	overflow: hidden;
+    height: 300px;
+    position: relative;
+}
+.ylikebd li{
+   width: 200px;
+    margin: 0px 22px 0 15px;
+    overflow: hidden;
+    float: left;
+	
+	
+}
+.ylikebd ul{
+	    /* overflow: hidden; */
+    padding: 0 25px;
+    height: 298px;
+   width: 100%;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    overflow: hidden;
+}
+
+.swiper-slide ul li{
+	width: 200px;
+    margin: 0px 22px 0 11px;
+    overflow: hidden;
+    float: left;
+	
+}
+
+.swiper-slide a{
+	position: relative;
+    display: block;
+    width: 200px;
+    overflow: hidden;
+}
+
+
+.swiper-slide a .feiji{
+	position: absolute;
+    left: 0;
+    top: 0;
+    width: 24px;
+    height: 24px;
+    z-index: 10;
+}
+
+.swiper-slide a .ylikimg{
+	width: 200px;
+    height: 200px;
+    overflow: hidden;
+}
+
+.swiper-slide a .ylikimg img{
+	width: 200px;
+    height: 200px;
+    display: block;
+    overflow: hidden;
+
+}
+
+.swiper-slide a span{
+	 display: block;
+    padding: 5px 0;
+    line-height: 21px;
+    height: 40px;
+    overflow: hidden;
+    font-size: 14px;
+    color: #333;
+}
+
+.swiper-slide a font{
+	display: block;
+    line-height: 24px;
+    color: #dc0f50;
+    font-size: 20px;
+}
+
+.swiper-slidea font i{
+	padding: 0 8px;
+    font-size: 12px;
+    color: #999;
+    text-decoration: line-through;
+	
+}
+
+.ylikebd  .ylikepre{
+	margin-top: -80px;
+	background: url(../img/prev.png) no-repeat;
+    left: 0;
+    width: 30px;
+    height: 60px;
+    position: absolute;
+    top: 50%;
+    margin-top: -30px;
+    opacity: 0.5;
+}
+
+.ylikebd  .ylikenext{
+	    margin-top: -80px;
+	    background: url(../img/next.png) no-repeat;
+        right: 0;
+        width: 30px;
+    height: 60px;
+    position: absolute;
+    top: 50%;
+    margin-top: -30px;
+    opacity: 0.5;
+}
+

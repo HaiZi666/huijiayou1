@@ -1,0 +1,202 @@
+@charset "utf-8";
+
+body,p,h1,h2,h3,h4,h5,h6,ul,dl,dd,td,input,fieldset,textarea,option{ margin:0; padding:0;}
+li{list-style:none;}
+a{text-decoration:none; color:#333;}
+img{border:none; vertical-align:top; }
+a,input{outline:none;}
+h1,h2,h3,h4,h5,h6,b,strong{font-weight:100;}
+i,em{font-style:normal;}
+body{font:12px "微软雅黑";}
+.clear{zoom:1;}
+.clear:after{content:"."; display:block; 
+clear:both; height:0; visibility:hidden;}
+.fl{float:left;}
+.fr{float:right;}
+
+  /*登录行页面*/
+ 
+ .login{
+ 	padding: 60px 70px 30px 70px;
+    overflow: hidden;
+    width: 1060px;
+    margin: 0 auto;
+ }
+
+.loginleft{
+	float: left;
+    width: 448px;
+    height: 336px;
+    padding: 40px 0 0 0;
+    overflow: hidden;
+    margin-bottom: 75px
+}
+
+.loginleft a{
+	color: #0077dd;
+    text-decoration: none;
+    outline: none;
+}
+
+.loginright{
+	float: right;
+    width: 448px;
+    overflow: hidden;
+    height: 376px;
+    margin-bottom: 75px;
+}
+.loginhead{
+	height: 40px;
+    line-height: 40px;
+    overflow: hidden;
+}
+ .loginhead a{
+ 	display: block;
+    width: 50%;
+    text-align: center;
+    float: left;
+    cursor: pointer;
+    font-size: 18px;
+    color: #666;
+ }
+
+ .loginhead a i{
+ 	  color: #dc0f50;
+   
+ }
+ 
+  .loginhead a .moren{
+  	    border-bottom: 2px solid #dc0f50;
+  }
+
+.loginright .qiuck{
+	display: none;
+}
+
+
+
+.loginbd{
+	
+	  margin-top: -1px;
+    overflow: hidden;
+    height: 290px;
+    border: 1px solid #e5e5e5;
+    padding: 45px 0 0 70px;
+    
+}
+.loginbd ul li{
+	
+	 overflow: hidden;
+    height: 40px;
+    margin-bottom: 19px;
+    position: relative;
+}
+.loginbd ul li i{
+	display: block;
+    width: 18px;
+    height: 18px;
+    background: url(../img/icon01.png) no-repeat;
+    position: absolute;
+    left: 11px;
+    top: 11px;
+}
+
+.loginbd ul li .towi{
+	width: 14px;
+    background: url(../img/icon02.png) no-repeat;
+    left: 13px;
+	
+}
+
+
+
+.loginbd ul li input{
+	    margin-right: 16px;
+    float: left;
+    height: 28px;
+    line-height: 28px;
+    padding: 5px 0 5px 60px;
+    width: 243px;
+    border: 1px solid #d6d6d6;
+    font-size: 14px;
+    color: #666;
+}
+
+.loginbd ul li label input{
+	width: 13px;
+    height: 13px;
+    border: none;
+    float: left;
+    margin-top: 5px;
+    margin-right: 5px;
+    padding: 0;
+}
+
+.loginbd ul li span{
+	float: right;
+    padding-right: 70px;
+}
+
+.loginbd p{
+	height: 40px;
+    line-height: 40px;
+    padding-right: 70px;
+}
+
+.loginbd p a{
+	display: block;
+    background: #dc0f50;
+    text-align: center;
+    font-size: 18px;
+    color: #fff;
+	
+}
+
+.loginright .qiuck{
+	padding-top: 9px;
+    height: 326px;
+}
+
+.loginright .qiuck li{
+	
+	    margin-bottom: 9px;
+}
+.qiuck>span{
+	background: url(../img/ling.png) no-repeat 9px 50%;
+    color: #dc0f50;
+    display: block;
+    height: 40px;
+    line-height: 38px;
+    padding: 0 32px;
+    font-size: 12px;
+}
+
+.qiuck b{
+	
+
+  line-height: 21px;
+    font-size: 12px;
+    color: #999;
+    height: 21px;
+    display: block;
+    font-weight: normal;
+}
+
+.qiuck ul li button{
+	width: 90px;
+    height: 40px;
+    background: #dc0f50;
+    border: none;
+    font-size: 14px;
+    color: #fff;
+    position: absolute;
+    right: 70px;
+    top: 0;
+    line-height: 40px;
+  
+}
+
+
+
+
+

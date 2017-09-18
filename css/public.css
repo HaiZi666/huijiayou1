@@ -1,0 +1,339 @@
+@charset "utf-8";
+
+body,p,h1,h2,h3,h4,h5,h6,ul,dl,dd,td,input,fieldset,textarea,option{ margin:0; padding:0;}
+li{list-style:none;}
+a{text-decoration:none; color:#333;}
+img{border:none; vertical-align:top; }
+a,input{outline:none;}
+h1,h2,h3,h4,h5,h6,b,strong{font-weight:100;}
+i,em{font-style:normal;}
+body{font:12px "微软雅黑";}
+.clear{zoom:1;}
+.clear:after{content:"."; display:block; 
+clear:both; height:0; visibility:hidden;}
+.fl{float:left;}
+.fr{float:right;}
+
+
+/*----登录，注册行   1-----*/
+
+#dluout{
+	height: 30px;
+    line-height: 30px;
+    background: #e5e5e5;
+}
+#dluin{
+	height: 30px;
+	width: 1200px;
+	margin: 0 auto;
+}
+#dluin ul li{
+	
+	color: #666;
+    font-size: 12px;
+    margin-right: 18px;
+    float: right;
+}
+#dluin ul li a{
+	
+	color: #666;
+    font-size: 12px;
+}
+
+#dluin ul #shoucan{    /* 收藏单独        */
+	float: left;
+}
+#sj a{       /* 手机单独        */
+	background: url(../img/denglu/sj.png) no-repeat 13px 1px;
+	padding-left: 30px;
+	border-left:1px solid black;
+}
+#weixin a{       /* 微信单独        */
+	background: url(../img/denglu/weixin.png) no-repeat left 1px;
+	padding-left: 20px;
+}
+#mfzc a{  /* 免费注册单独加边框      */
+	padding-right:8px ;
+	
+	border-right:1px solid black;
+	
+}
+
+.ma22{
+    display:none;
+    text-align: center;
+    background: #fff;
+    
+    top: 30px;
+    position: absolute;
+    z-index: 1000;
+    width: 122px;
+    border: 1px solid #e5e5e5;
+    /* height: 164px; */
+    padding: 14px 13px 0 13px;
+}
+
+.ma22 img{
+ width: 121px;
+    height: 121px;
+}
+
+.ma22 span{
+	 font-size: 16px;
+    color: #333;
+    line-height: 44px;
+}
+ #sj .sj22{
+ 	right: 127px;
+ }
+#weixin  .weixin22{
+	right: 30px;
+}
+
+
+
+
+/*-******logo行  2*********/
+
+#logeout{
+	height: 140px;
+    padding-top: 32px;
+    border-bottom: 2px solid #dc0f50;	
+}
+#logohead{
+	width: 1200px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+#logohead h1{
+    width: 240px;
+    margin: 9px 110px 0 0;
+    overflow: hidden;
+    float: left;
+    text-align: center;	
+}
+#search{
+	margin-right: 156px;
+    width: 500px;
+    height: 99px;
+    position: relative;
+    float: left;
+}
+
+#search input{
+	width: 369px;
+    border: 1px solid #dc0f50;
+    height: 20px;
+    padding: 10px 112px 10px 15px;
+    overflow: hidden;
+    font-size: 14px;
+    color: #666;
+    line-height: 20px;
+}
+#searcha{
+    display: block;
+    width: 98px;
+    height: 44px;
+    line-height: 44px;
+    text-align: center;
+    color: #fff;
+    background: #dc0f50;
+    font-size: 16px;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+#search ul li {
+	display: inline-block;
+    float: left;
+    margin-right: 15px;
+    color: #999;
+    font-size: 14px;
+}
+
+#gwc{
+	float: left;
+    position: relative;
+}
+#gwc{
+	display: block;
+    width: 90px;
+    height: 42px;
+    line-height: 42px;
+    color: #333;
+    border: 1px solid #e5e5e5;
+    text-align: center;
+    padding-left: 30px;
+    font-size: 14px;
+    background: url(../img/denglu/gwc.png) no-repeat 10px center;
+}
+
+#logonav{
+	width: 1200px;
+    margin: 0 auto;
+    height: 42px;
+    left: 250px;
+    top: 160px;
+}
+
+#logonav span{
+	display: block;
+    border-bottom: 2px solid #dc0f50;
+    margin-right: 30px;
+    height: 40px;
+    line-height: 40px;
+    float: left;
+    background: #333;
+    color: #fff;
+    padding: 0 20px;
+
+}
+#logonav ul{
+	overflow: hidden;
+    float: left;
+    width: 900px;
+    height: 40px;
+	
+}
+#logonav ul li{
+	overflow: hidden;
+    padding: 0 16px 0 24px;
+    line-height: 40px;
+    height: 40px;
+    float: left;
+	
+}
+#logonav ul li a{
+	font-size: 18px;
+    color: #333;
+}
+
+	/*--******五大保证行   11*******--*/
+#wubaoout ul{
+	overflow: hidden;
+    margin: 20px auto 45px auto;
+    width: 1200px;
+}
+
+#wubaoout ul li{
+	height: 62px;
+    padding: 0 25px 0 72px;
+    float: left;
+    	
+}
+#wubao1{background: url(../img/BOTTOM/zhengpin.png) no-repeat 5px 0;}
+#wubao2{background: url(../img/BOTTOM/shangmen.png) no-repeat 5px 0;}
+#wubao3{background: url(../img/BOTTOM/zhifu.png) no-repeat 5px 0;}
+#wubao4{background: url(../img/BOTTOM/hdfk.png) no-repeat 5px 0;}
+#wubao5{background: url(../img/BOTTOM/fuwu.png) no-repeat 5px 0;}
+
+#wubaoout ul li span{
+	display: block;
+    line-height: 22px;
+    padding-top: 5px;
+    font-size: 16px;
+    color: #333;
+}
+#wubaoout ul li i{
+	display: block;
+    line-height: 18px;
+    font-size: 12px;
+    color: #999;
+}
+
+/*<!--******关于我们以及合作行   12********-->*/
+#about{
+	overflow: hidden;
+    width: 1200px;
+    margin: 0 auto;
+    margin-bottom: 25px;
+}
+#list{
+ 	width: 860px;
+    padding-left: 78px;
+    float: left;
+    overflow: hidden;
+ }
+ 
+ #list dl{
+ 	width: 20%;
+    float: left;
+    overflow: hidden;
+ }
+ 
+ #list dl dt{
+ 	color: #666;
+    font-size: 19px;
+    font-weight: bold;
+    line-height: 30px;
+ }
+
+#erweima{
+	float: right;
+    overflow: hidden;
+    width: 210px;
+    padding-right: 50px;
+}
+
+#erweima ul{
+	    overflow: hidden;
+    margin-bottom: 10px;
+}
+#erweima ul li{
+     width: 79px;
+    float: left;
+    line-height: 25px;
+    text-align: center;
+    font-size: 12px;
+    color: #666;
+    font-weight: bold;
+    margin-right: 26px;
+}
+#erweima ul li img{
+	height: auto;
+    vertical-align: top;
+}
+#aboutimg1,#aboutimg2{
+	height: 79px;
+	width: 79px;
+}
+    
+/*******bottom行   13*********/
+
+#bottomout{
+	    background: #333;
+    padding: 10px 0;
+	
+}
+
+#bottomin{
+	    width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+#btmlist{
+	line-height: 26px;
+    color: #999;
+    font-size: 12px;
+    padding: 0 5px;
+}
+    #btmlist span{
+    	padding: 0 5px;
+    }
+ #btmlist a{
+ 	    color: #999;
+ }
+
+#youqing{
+	line-height: 26px;
+    color: #999;
+    font-size: 12px;
+    padding: 0 5px;
+}
+#youqing a,#bottomin p,#bottomin p a{
+	    color: #999;
+}
+
